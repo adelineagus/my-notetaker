@@ -38,6 +38,8 @@
   Screenshot first-section: [link](./images/firstsection.png)
   
   Screenshot second-section: [link](./images/secondsection.png)
+
+  heroku app link: https://adeline-notetaker.herokuapp.com
   
 
   ## Credits
