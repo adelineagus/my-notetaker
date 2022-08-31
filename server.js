@@ -7,6 +7,7 @@ const api= require('./routes/index.js');
 const PORT=process.env.PORT||3001;
 const app= express();
 
+//middleware for json parse and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use('/api', api);
@@ -18,7 +19,7 @@ app.get('/notes', (req,res)=>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-//
+//fallback route when user visit routes that don't exist, which will send index.html
 app.get('*',(req,res)=>
     res.sendFile(path.join(__dirname, '/public/index.html'))
 );
