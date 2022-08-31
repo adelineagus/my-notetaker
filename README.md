@@ -6,16 +6,12 @@
   The purpose of this application is to create application for note taking that is used to write and save notes. This application is built using Express.js and save/get notes from JSON file.
 
   Achievements:
-  1. Create command application that require inputs from users
-  2. When application is started, options are presented to: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-  3. View all departments: show table with department names and ids
-  4. View all roles: show table with role title, role id, department name, and role salary
-  5. View all employees: show table with employee ids, first name, last name, role title, department, salary, and employee's manager
-  6. Add a department: prompt to add new department
-  7. Add a role: prompts to enter role title, salary and role's deparment
-  8. Add an employee: prompts to enter employee's first and last name, role, and employee's manager
-  9. All additions (department, role, and employee) are stored in database
-  10. Update an employee role: prompts to select employee to update and their new role. Updates are stored in database.
+  1. Landing page for Note Taker app has link to notes page
+  2. When clicking button/link to notes page, users are presented with page containing existing notes on left column and empty fields to enter new note on right column
+  3. Save icon appears in the top page when note title and text are entered
+  4. When save icon is clicked, new note entered is saved and appears in left column
+  5. When clicking existing notes on left column, note appears on the right
+  6. When clicking write icon on top of page, users are presented with empty fields to enter new note title and text
 
   ## Table of Contents
   - [Installation](#installation)
