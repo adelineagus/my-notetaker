@@ -22,7 +22,7 @@
   - [Questions](#questions)
 
   ## Installation
-  Clone repo, download node
+  Clone repo, download node, and use express.js. In addition heroku needs to be installed to deploy app.
 
   Run npm i to install packages needed. 
 
@@ -31,9 +31,9 @@
   ## Usage
   In terminal, run node server.js, choose options presented and answers questions from command line
 
-  Screenshot first-section: [link](./images/firstsection.png)
+  Screenshot first-section: [link](./images/landingpage.png)
   
-  Screenshot second-section: [link](./images/secondsection.png)
+  Screenshot second-section: [link](./images/notespage.png)
 
   heroku app link: https://adeline-notetaker.herokuapp.com
   
