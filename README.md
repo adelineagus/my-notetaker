@@ -22,14 +22,14 @@
   - [Questions](#questions)
 
   ## Installation
-  Clone repo, download node, and use express.js. In addition heroku needs to be installed to deploy app.
+  Clone repo, download node, and use express.js. In addition, heroku needs to be installed to deploy app.
 
   Run npm i to install packages needed. 
 
   Repo: https://github.com/adelineagus/my-notetaker
 
   ## Usage
-  In terminal, run node server.js, choose options presented and answers questions from command line
+  In terminal, run npm i and node server.js. Go to localhost:3001 in browser to use the application. 
 
   Screenshot first-section: [link](./images/landingpage.png)
   
@@ -37,6 +37,8 @@
 
   heroku app link: https://adeline-notetaker.herokuapp.com
   
+  Walkthrough link: https://drive.google.com/file/d/1ionC93XWc5CLioPQHTGj4k1PS-83Gmqo/view
+
 
   ## Credits
   Collaborators: Adeline Aguspranoto
